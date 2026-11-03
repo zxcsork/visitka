@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Обратная связь</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="clearfix">
+            <a href="index.html" id="logo"><span class="pink">Pixel</span><i>Craft</i>
+            <nav id="mainnav">
+                <ul>
+                    <li><a href="uslugi.html">Услуги</a></li>
+                    <li><a href="onas.html">О нас</a></li>
+                    <li><a href="klienti.html">Клиенты</a></li>
+                    <li><a href="kontakti.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form action="" id="contact-form">
+                <div class="form__item">
+                    <label for="topic">Тема</label><br>
+                    <select name="topic" id="topic" required>
+                        <option value="1">Заказать разработку сайта</option>
+                        <option value="2">Заказать дизайн / брендинг</option>
+                        <option value="3">Настройка рекламы и продвижения</option>
+                        <option value="4">Предложить партнерство</option>
+                        <option value="5">Вопрос руководству / Другое</option>
+                    </select>
+                </div>
+
+                <div class="form__item">
+                    <label for="name">Имя</label><br>
+                    <input type="text" name="name" id="name" placeholder="Введите имя" required>
+                </div>
+
+                <div class="form__item">
+                    <label for="email">E-mail</label><br>
+                    <input type="email" name="email" id="email" placeholder="Введите email" required>
+                </div>
+
+                <div class="form__item">
+                    <label for="message">Текст сообщения</label><br>
+                    <textarea name="message" id="message" placeholder="Введите текст сообщения" required></textarea>
+                </div>
+
+                <div class="form__item">
+                    <input type="submit" value="ОТПРАВИТЬ">
+                </div>
+            </form>
+        </main>
+    </div>
+    <footer>
+        <p class="footer__block"><a href="form.html">▲Написать нам</a></p>
+        <p class="footer__block">&copy; Новая компания</p>
+        <div class="footer__icons">
+            <a href="https://ok.ru" target="_blank">
+                <img src="img/ok.png" class="footer__img" alt="OK">
+            </a>
+            <a href="https://vk.com" target="_blank">
+                <img src="img/vk.png" class="footer__img" alt="VK">
+            </a>
+            <a href="https://mail.ru" target="_blank">
+                <img src="img/mailru.png" class="footer__img" alt="Mail.ru">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
